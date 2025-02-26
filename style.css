@@ -58,8 +58,6 @@
     color: #b30000; /* Rouge foncé */
     margin-bottom: 15px;
     text-align: left;
-
-    
   }
   
   /* ------------------------------------------------------------------
@@ -99,7 +97,6 @@
     font-size: 1rem;
     margin-bottom: 10px;
     text-align: left;
-
   }
   .redeem-section {
     display: flex;
@@ -107,7 +104,6 @@
     gap: 10px;
     margin-bottom: 10px;
   }
-  /* Zone du code secret : plus grande, texte aligné à gauche et gris clair */
   .code-input {
     width: 200px;
     height: 50px;
@@ -118,7 +114,6 @@
     font-size: 1rem;
     color: #6b6b6b;
   }
-  /* Bouton Valider : rouge, texte blanc, bord arrondi (demi-cercle) */
   .validate-btn {
     background-color: #cc0000;
     color: #fff;
