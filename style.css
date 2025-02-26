@@ -1,0 +1,192 @@
+/* ------------------------------------------------------------------
+   Réinitialisation basique
+------------------------------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Oswald, sans-serif;
+  }
+  
+  /* ------------------------------------------------------------------
+     Arrière-plan et disposition globale
+  ------------------------------------------------------------------ */
+  .page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url("image/fond_ecran.PNG") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* ------------------------------------------------------------------
+     En-tête avec logo KFC centré
+  ------------------------------------------------------------------ */
+  .header-kfc {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .kfc-logo {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  /* ------------------------------------------------------------------
+     Carte blanche centrale
+  ------------------------------------------------------------------ */
+  .card {
+    background: #fff;
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------------------------------------------------------------
+     Titre principal “Votre cadeau :”
+  ------------------------------------------------------------------ */
+  .gift-title {
+    font-size: 1.4rem;
+    color: #b30000; /* Rouge foncé */
+    margin-bottom: 15px;
+    text-align: left;
+
+    
+  }
+  
+  /* ------------------------------------------------------------------
+     Bloc du bucket : fond gris clair et contenu aligné à gauche
+  ------------------------------------------------------------------ */
+  .bucket-card {
+    background: #d8d7d7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .bucket-img {
+    max-width: 80px;
+    height: auto;
+  }
+  .bucket-info {
+    text-align: left;
+  }
+  .menu-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  .valid-date {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* ------------------------------------------------------------------
+     Section “Récupérez votre gain :”
+  ------------------------------------------------------------------ */
+  .gain-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+
+  }
+  .redeem-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  /* Zone du code secret : plus grande, texte aligné à gauche et gris clair */
+  .code-input {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #565656;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 1rem;
+    color: #6b6b6b;
+  }
+  /* Bouton Valider : rouge, texte blanc, bord arrondi (demi-cercle) */
+  .validate-btn {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 50px;
+  }
+  .validate-btn:hover {
+    background-color: #b30000;
+  }
+  
+  /* ------------------------------------------------------------------
+     Instructions (alignées à gauche)
+  ------------------------------------------------------------------ */
+  .instruction-bold {
+    font-size: 0.9rem;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .instruction-normal {
+    font-size: 0.9rem;
+    font-family: 'OpenSans', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------------------------------------------------------------
+     Message final
+  ------------------------------------------------------------------ */
+  .restaurant-msg {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .msg-main {
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .msg-restaurant {
+    font-weight: bold;
+    color: #b30000;
+  }
+  
+  /* ------------------------------------------------------------------
+     Pied de page
+  ------------------------------------------------------------------ */
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .footer ul {
+    list-style: none;
+    display: block;
+    gap: 15px;
+  }
+  .footer li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.85rem;
+  }
+  .footer li a:hover {
+    text-decoration: underline;
+  }
+  
