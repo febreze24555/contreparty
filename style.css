@@ -19,7 +19,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: url("image/fond_ecran.PNG") no-repeat center center fixed;
+    background: url("fond_ecran.PNG") no-repeat center center fixed;
     background-size: cover;
   }
   
